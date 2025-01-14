@@ -14,4 +14,9 @@ int main()
     cout<< ++x <<endl; //pre increament (first increament the variable then use it)
     cout<< x <<endl;
 
+    cout<< x-- <<endl; //post decrement (first use the variable the decrement it)
+    cout<< x <<endl;
+    cout<< --x <<endl; //pre decrement (first decrement the variable then use it)
+    cout<< x <<endl;
+
 }
