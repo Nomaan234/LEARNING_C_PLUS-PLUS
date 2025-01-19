@@ -1,1 +1,4 @@
-cout<<"cobinatoin is : "<<fact(n)/(fact(r)*fact(n-r));
+for(int j=0 ; j<=n-i ; i++)
+        //      {
+        //         cout<<" ";
+        //      }
