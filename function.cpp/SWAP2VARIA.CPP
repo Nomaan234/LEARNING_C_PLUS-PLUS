@@ -3,9 +3,9 @@ using namespace std;
 
 void swap(  int &x, int &y)
     {
-        int temp=x;
-        x=y;
-        y=temp;
+        x=x+y;
+        y=x-y;
+        x=x-y;
         
     }
     
@@ -20,9 +20,9 @@ int main()
     cin>>y;
 
     
-          cout<<x<<" "<<y<<endl;
+          cout<<"before swap : "<<x<<" "<<y<<endl;
 
    swap(x,y);
-   cout <<x<<" "<<y;
+   cout <<"after swap : "<<x<<" "<<y;
 
 }
