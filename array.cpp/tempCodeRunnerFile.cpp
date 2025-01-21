@@ -1,3 +1,6 @@
+ // cout<<"reverse array : ";
 
-    int prod=1;
-    for(int i=0 ; i<n ; 
+    // for(int i=n-1 ; i>0 ; i++)
+    // {
+    //     cout<<a[i]<<" ";
+    // }
