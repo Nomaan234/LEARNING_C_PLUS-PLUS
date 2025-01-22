@@ -31,11 +31,18 @@ int main()
         cout<<endl;
     }
 
+    int x1,x2,y1,y2;
+    cout<<"enter the 1st cordinate";
+    cin>>x1>>y1;
+
+    cout<<"enter the 2nd cordinate";
+    cin>>x2>>y2;
+
 
     int sum=0;
-    for (int i=0 ; i<n; i++)
+    for (int i=x1 ; i<=x2; i++)
     {
-        for (int j = 0; j < m;j++)
+        for (int j = y1; j <= y2; j++)
         {
           sum += a[i][j];
         }
